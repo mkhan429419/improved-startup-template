@@ -1,0 +1,195 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.n-logo {
+  scale: 50px;
+}
+
+.image-section {
+  position: relative;
+  overflow: hidden;
+  height: 1200px;
+  background-color: #f2f5f0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%; 
+  height: 100%; 
+}
+
+.image1, .image2 {
+  max-height: 100%; 
+}
+
+.image1 {
+  width: 30%; 
+  z-index: 1;
+  margin-left: 330px;
+  margin-top: 440px;
+  margin-bottom: 800px;
+  transition: all 1s;
+}
+
+.image2 {
+  width: 30%; 
+  margin-right: 700px; 
+  margin-top: 290px;
+  z-index: 2;
+  transition: all 1s;
+}
+
+.image1:hover {
+  transform: scale(1.1);
+}
+
+.image2:hover {
+  transform: scale(1.1);
+}
+
+.text-content-1 {
+  position: absolute;
+  top: 320px;
+  left: 1340px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: transparent;
+  z-index: 3;
+  width: 70%; 
+}
+
+.text-content-2 {
+  position: absolute;
+  top: 870px;
+  left: 230px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: transparent;
+  z-index: 3;
+  width: 70%; 
+}
+
+.clothes-section {
+  position: relative;
+  overflow: hidden;
+  height: 1120px;
+}
+
+/* Update the carousel images */
+.carousel-inner img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover; /* This ensures the image fills the slide */
+}
+
+/* Center the carousel container horizontally */
+.clothes-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Adjust the width of the carousel container */
+#carouselExampleIndicators {
+  width: 80%; /* You can adjust this value as needed */
+}
+
+/* Style for the carousel captions */
+.carousel-caption {
+  position: absolute;
+  bottom: 230px; /* Adjust the vertical position as needed */
+  left: 50%; /* Center the caption horizontally */
+  transform: translateX(-50%);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width: 80%;
+}
+
+.review-section {
+  position: relative;
+  overflow: hidden;
+  height: 1475px;
+  background-color: #f2f5f0;
+}
+
+.review1-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.review2-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sub-section {
+  position: relative;
+  overflow: hidden;
+  height: 1080px;
+  background-color: #dfe6da;
+}
+
+.r1 {
+   transition: all 1s;
+}
+
+.r1:hover {
+  transform: scale(1.1);
+}
+
+.r2 {
+   transition: all 1s;
+}
+
+.r2:hover {
+  transform: scale(1.1);
+}
+
+.r3 {
+   transition: all 1s;
+}
+
+.r3:hover {
+  transform: scale(1.1);
+}
+
+.r4 {
+   transition: all 1s;
+}
+
+.r4:hover {
+  transform: scale(1.1);
+}
+
+.r5 {
+   transition: all 1s;
+}
+
+.r5:hover {
+  transform: scale(1.1);
+}
+
+.r6 {
+   transition: all 1s;
+}
+
+.r6:hover {
+  transform: scale(1.1);
+}
+
+.no-shadow-navbar {
+  box-shadow: none !important;
+}
